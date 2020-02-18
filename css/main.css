@@ -1,0 +1,479 @@
+*{
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a9d3dc;
+    padding-top: 1%;
+}
+ul{
+    padding: 0; 
+    list-style-type: none;
+}
+.left-head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #a9d3dc;
+}
+.left-head i{
+    padding-right: 3%;
+    font-size: 1.3em;
+}
+.right-head ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a9d3dc;
+}
+.right-head ul li{
+    list-style: none;
+    padding-right: 6%;
+}
+.right-head ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+#default{
+    color: #a9d3dc;
+    background-color: black;
+    border-radius: 3px;
+    padding: 3px;
+    font-weight: 500;
+}
+h1{
+    font-size: 1.5em;
+    padding: 0 5% 0 10%;
+    text-align: center;
+    color: #e8e6df;
+    flex-grow: 1;
+}
+button{
+    border-radius: 5px;
+    float: none;
+    display: block;
+    padding: 10px;
+    margin: 20px 0;}
+.intro-center img{
+    flex-grow: 2;
+    padding-right: 5%;
+    max-width: 40%;
+    height: auto;
+}
+.intro-center{
+    background-color: #a9d3dc;
+}
+.intro-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles{
+    text-align: center;
+    background-color: #a9d3dc;
+    color: #fff;
+    padding-bottom: 10px;;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    padding: 50px 15%;
+}
+.features div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+    width: 30%;
+}
+.features div img{
+    height: auto;
+    width: 100%;
+}
+.features div h4{
+    padding: 2% 0;
+}
+.recent-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #87c9a5;
+    color: #fff;
+}
+.recent-work h2{
+    padding-top: 2%;
+}
+.recent-work p{
+    font-size: .6em;
+    padding: 2% 40%;
+    text-align: center;
+    color: #e6e8e6;
+}
+.recent-work ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    padding-top: 2%;
+}
+.recent-work ul li{
+    padding: 5px;
+    list-style: none;
+    background-color: inherit;
+}
+.recent-work ul li a{
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+}
+#all{
+    color: #87c9a5;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 3px;
+}
+#web{
+    border: .5px solid #fff;
+    border-radius: 3px;
+    padding: 3px;
+}
+.work-images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 0 1 20%;
+    background-color: inherit;
+    padding: 10px 10%;
+}
+.workimage{
+    flex-grow: 1;
+    height: auto;
+    width: 30%;
+    margin: 1%;
+}
+.workimage img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray; 
+    color: #fff;
+}
+.template{
+    background-color: #f0f0f0;
+    padding: 30px 15%;
+}
+.template div{
+    width: 100%;
+}
+.template div img{
+    height: auto;
+    max-width: 60%;
+}
+hr{
+    padding: 0 15%;
+    margin: 10px 0;
+    background-color: inherit;
+    border: .5px solid black;
+}
+.top-temp{
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom-temp{
+    background-color: inherit;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.top-temp-text{
+    padding-left: 5%;
+}
+.top-temp-text button{
+    background-color: #87c9a5;
+}
+.bottom-temp-text{
+    padding-right: 5%;
+}
+.bottom-temp-text button{
+    background-color: #a9d3dc;
+}
+.template div div p{
+    padding: 2% 0;
+}
+.team{
+    background-color: #e9b7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 15%;
+}
+.team .team-members{
+    background-color: inherit;
+    display: flex;
+}
+.team .team-members .member{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5px;
+    align-items: center;
+    margin: 0 2%;
+}
+.team h2{
+    color: #fff;
+}
+.team p{
+    color: #fff;
+    font-size: .7em;
+    padding: 2% 5%;
+    text-align: center;
+}
+.member p{
+    color: black;
+}
+.member img{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+.social-icons{
+    padding-bottom: 2%;
+}
+.social-icons .fa-twitter{
+    color: #00acee;
+}
+.social-icons .fa-facebook{
+    color:#3b5998;
+}
+.social-icons .fa-pinterest{
+    color: #c8232c;
+}
+.blog{
+    background-color: #b4d3de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 15%;
+    color: #fff;
+}
+.blog p{
+    padding: 20px 25%;
+    font-size: .4em;
+    text-align: center;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-post{
+    flex: 0 1 30%;
+    color: black;
+    background-color: #fff;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-post img{
+    width: 100%;
+    height: auto;
+}
+.blog-post p{
+    padding: 5% 10%;
+    font-size: .5em;
+    font-style: italic;
+}
+.blog-post h3{
+    font-weight: 800;
+}
+.blog-post h4{
+    font-weight: 300;
+    font-size: .7em;
+    font-style: italic;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3c3c3c;
+    color: #fff;
+}
+.contact h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.contact p{
+    padding: 5px 30%;
+    text-align: center;
+    font-size: .5em;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    padding: 10px 20%;
+}
+.contact form input{
+    color: black;
+    flex: 1;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #e8e6df;
+}
+.contact form p a{
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+}
+.contact form p a:hover{
+    background-color: #e8e6df;
+}
+.contact form textarea{
+    margin: 5px 0 15px 0;
+    border-radius: 5px;
+    background-color: #e8e6df;
+}
+.true-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c3c3c;
+    padding: 0 20% 10px 20%;
+    color: #202622;
+}
+.true-footer .right-foot{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.true-footer .left-foot{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5em;
+}
+.true-footer .right-foot span{
+    color: goldenrod;
+}
+.true-footer .left-foot a i{
+    color:#202622;
+    padding-right: 10px;
+}
+.left-foot .fa-twitter:hover{
+    color: #00acee;
+}
+.left-foot .fa-facebook:hover{
+    color:#3b5998
+}
+.left-foot .fa-telegram:hover{
+    color: #0088cc;
+}
+.left-foot .fa-youtube:hover{
+    color:#c4302b;
+}
+@media (max-width: 650px){
+    h1{
+        font-size: 1em;
+    }
+    h2{
+        font-size: .8em;
+    }
+    .right-head ul li a {
+        font-size: .7em;
+    }
+    p{
+        font-size: .5em;
+    }
+    .true-footer .left-foot{
+        font-size: .5em;
+    }
+    .recent-work ul li a {
+        font-size: .7em;
+    }
+    button{
+        font-size: .7em;
+        padding: 7px;
+    }
+    .left-head i{
+        font-size: 1em;
+    }
+}
+@media (max-width: 500px){
+    h1{
+        font-size: .8em;
+    }
+    h2{
+        font-size: .6em;
+    }
+    .right-head ul li a {
+        font-size: .5em;
+    }
+    p{
+        font-size: .3em;
+    }
+    .true-footer .left-foot{
+        font-size: .3em;
+    }
+    .recent-work ul li a {
+        font-size: .4em;
+    }
+    .recent-work p{
+        padding: 2% 20%;
+    }
+    .blog p{
+        padding: 10% 10%;
+    }
+    button{
+        font-size: .5em;
+        padding: 5px;
+    }
+    .contact p{
+        padding: 5px 10%;
+    }
+    h3{
+        font-size: .6em;
+    }
+    h4{
+        font-size: .5em;
+    }
+    i{
+        font-size: .5em;
+    }
+}
+@media (max-width: 450px){
+    p{
+        font-size: .1em;
+    }
+    .left-head i{
+        font-size: .7em;
+    }
+    
+}
+@media (max-width: 375px){
+    .recent-work ul li a{
+        font-size: .3em;
+    }
+    .right-head ul li a {
+        font-size: .3em;
+    }
+}
